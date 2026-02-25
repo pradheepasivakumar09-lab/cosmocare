@@ -1,0 +1,60 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #F8C8DC, #FFF8F2);
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(10px);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #F8C8DC;
+  border-radius: 20px;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+}
+
+.face-container {
+  position: relative;
+  width: 300px;
+  margin: auto;
+}
+
+.face {
+  width: 100%;
+}
+
+.lip-overlay {
+  position: absolute;
+  bottom: 80px;
+  left: 110px;
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  opacity: 0.6;
+}
